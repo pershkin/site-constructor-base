@@ -1,0 +1,17 @@
+{
+  "name": "js-constructor",
+  "version": "1.0.0",
+  "description": "js constructor",
+  "source": "index.html",
+  "scripts": {
+    "dev": "parcel ./src/index.html -p 3300 --open",
+    "build": "parcel build ./src/index.html --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  }
+}
